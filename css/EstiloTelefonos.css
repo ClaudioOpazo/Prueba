@@ -141,39 +141,6 @@
   height: 640px;
 }
 
-.apple{
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 21px;
-  border-top-right-radius: 21px;
-}
-
-.samsung{
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 21px;
-  border-top-right-radius: 21px;
-  background-color: white;
-}
-
-.huawei{
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 21px;
-  border-top-right-radius: 21px;
-}
-
-.xiaomi{
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 21px;
-  border-top-right-radius: 21px;
-}
-
-.letras{
-  color: #e5e5e5;
-  text-align: left;
-}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -226,3 +193,54 @@
   margin-top: 5px;
 }
 
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+#Apple:checked ~ #imagenes .Samsung, #Apple:checked ~ #imagenes .Huawei, #Apple:checked ~ #imagenes .Xiaomi{
+  display: none;
+}
+
+#Samsung:checked ~ #imagenes .Apple, #Samsung:checked ~ #imagenes .Huawei, #Samsung:checked ~ #imagenes .Xiaomi{
+  display: none;
+}
+
+#Huawei:checked ~ #imagenes .Apple, #Huawei:checked ~ #imagenes .Samsung, #Huawei:checked ~ #imagenes .Xiaomi{
+  display: none;
+}
+
+#Xiaomi:checked ~ #imagenes .Samsung, #Xiaomi:checked ~ #imagenes .Huawei, #Xiaomi:checked ~ #imagenes .Apple{
+  display: none;
+}
+
+.filtro1{
+  border: solid 5px #121212;
+  
+}
+
+.card{
+  border-radius: 20px;
+}
+
+.bordej{
+  border-radius: 20px;
+}
+
+#contenedor{
+  text-align: center;
+  margin: auto;
+}
+
+label{
+  padding: 0px 10px 25px;
+  
+}
