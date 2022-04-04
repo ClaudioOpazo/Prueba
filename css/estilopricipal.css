@@ -226,3 +226,7 @@
   margin-top: 5px;
 }
 
+.url{
+  text-decoration: none;
+  color: white;
+}
