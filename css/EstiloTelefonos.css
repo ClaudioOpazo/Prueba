@@ -242,5 +242,9 @@
 
 label{
   padding: 0px 10px 25px;
-  
+}
+
+.url{
+  text-decoration: none;
+  color: white;
 }
