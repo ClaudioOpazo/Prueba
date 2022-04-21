@@ -41,3 +41,9 @@ body {
     text-decoration: none;
     color: white;
   }
+
+.fondo{
+    background-image: url(../Imagenes/Fondo.jpg);
+    background-size: 100% 100%;
+    
+}
