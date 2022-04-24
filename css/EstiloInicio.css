@@ -5,7 +5,7 @@ h1{
 .forma{
     margin-top: 23%;
     border: 5px solid black;
-    
+    background-color: #323bbe80;
 }
 
 .fondo{
@@ -15,4 +15,9 @@ h1{
     background-attachment: fixed;
     background-size: cover;
     background-color: #82B5D2;
+}
+
+.centrado{
+    text-align: center;
+    color: #fff;
 }
