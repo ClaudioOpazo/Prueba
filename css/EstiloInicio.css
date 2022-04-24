@@ -2,13 +2,17 @@ h1{
     text-align: center;
 }
 
-.fondo{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+.forma{
+    margin-top: 23%;
+    border: 5px solid black;
+    
 }
 
-.forma{
-    margin-top: 25%;
+.fondo{
+    background-image: url(../Imagenes/Fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #82B5D2;
 }
