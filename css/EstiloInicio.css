@@ -1,11 +1,12 @@
 h1{
     text-align: center;
+    color: white;
 }
 
 .forma{
     margin-top: 23%;
-    border: 5px solid black;
-    background-color: #323bbe80;
+    border: 5px solid rgba(0, 26, 255, 0.411);
+    background-color: #323bbeb2;
 }
 
 .fondo{
@@ -21,3 +22,47 @@ h1{
     text-align: center;
     color: #fff;
 }
+
+.boton1{
+    color: white;
+    background-color: black;
+    margin-top: 2%;
+}
+
+button{
+    padding-left: 40%;
+}
+
+.colorrojo{
+    background-color: #F05454;
+    border-color: #F05454;
+}
+
+.colorazul{
+  background-color: #121212;
+  border-color: #121212;
+  color: #e5e5e5;
+}
+
+.colorblanco{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.tamlogo{
+    width: 50px;
+    height: 50px;
+}
+
+.xd{
+    position: absolute;
+    padding-top: 0.7%;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.url{
+    text-decoration: none;
+    color: white;
+  }
