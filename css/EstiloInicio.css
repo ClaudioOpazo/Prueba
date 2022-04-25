@@ -4,18 +4,14 @@ h1{
 }
 
 .forma{
-    margin-top: 23%;
-    border: 5px solid rgba(0, 26, 255, 0.411);
-    background-color: #323bbeb2;
+    margin-top: 15%;
+    border: 5px solid white;
+    background-color: black;
+    border-radius: 20px;
 }
 
 .fondo{
-    background-image: url(../Imagenes/Fondo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #82B5D2;
+    background-color: white;
 }
 
 .centrado{
@@ -65,4 +61,10 @@ button{
 .url{
     text-decoration: none;
     color: white;
-  }
+}
+
+.logo2{
+    width: 20%;
+    height: 30%;
+    
+}
