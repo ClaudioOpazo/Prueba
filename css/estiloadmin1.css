@@ -1,0 +1,66 @@
+.colorrojo{
+    background-color: #F05454;
+    border-color: #F05454;
+}
+
+.colorazul{
+  background-color: #121212;
+  border-color: #121212;
+  color: #e5e5e5;
+}
+
+.colorblanco{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.tamlogo{
+    width: 50px;
+    height: 50px;
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+@media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+}
+  
+.xd{
+    position: absolute;
+    padding-top: 0.7%;
+    font-size: 15px;
+    margin-top: 5px;
+}
+  
+.url{
+    text-decoration: none;
+    color: white;
+}
+
