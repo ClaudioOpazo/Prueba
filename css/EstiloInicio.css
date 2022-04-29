@@ -4,10 +4,11 @@ h1{
 }
 
 .forma{
-    margin-top: 15%;
-    border: 5px solid white;
+    margin-top: 10%;
+    border: 5px solid #F05454;
     background-color: black;
     border-radius: 20px;
+    padding: 50px;
 }
 
 .fondo{
@@ -64,7 +65,11 @@ button{
 }
 
 .logo2{
-    width: 20%;
-    height: 30%;
-    
+    width: 30%;
+    height: 45%;
+}
+
+.b{
+    font-size: 25px;
+    padding-bottom: 5px;
 }
