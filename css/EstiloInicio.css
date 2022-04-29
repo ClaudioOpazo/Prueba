@@ -73,3 +73,35 @@ button{
     font-size: 20px;
     padding-bottom: 5px;
 }
+
+/*----------------formulario-----------------*/
+.formulario {
+    background-color: #C489FD;
+    margin: 5%;
+}
+
+.contenido {
+    margin-top: 5%;
+}
+
+.cto {
+    text-align: center;
+
+}
+.titulo{
+    font-size: 16px;
+    color: white;
+}
+.cuerpo{
+    background-color: black;
+    padding: 1%;
+    border-radius: 2%;
+    border: 3px solid #F05454 ;
+}
+.cambio{
+    width: 10%;
+}
+.register{
+    font-size: 30px;
+    font-weight: bolder;
+}

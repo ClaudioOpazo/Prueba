@@ -1,82 +1,125 @@
 <meta name="description" content="">
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 <meta name="generator" content="Hugo 0.88.1">
-<title>Signin Template · Bootstrap v5.1</title>
+<title>Registro</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
-<link href="css/EstiloRegistro.css" rel="stylesheet">
-
-<style>
-    .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-    }
-
-    @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-        }
-    }
-</style>
-
-
-<!-- Custom styles for this template -->
-<link href="signin.css" rel="stylesheet">
+<link href="css/EstiloInicio.css" rel="stylesheet">
 </head>
 
-<body class="text-center">
+<body class="fondo">
+    <header class="p-3 colorazul text-white">
+        <div container>
+            <h5 class="xd">SmartPhoneLand</h5>
+        </div>
 
-    <main class="form-signin">
-        <form method="post">
-            <img class="mb-4" src="Imagenes/Logo_SmartPhoneLand_Definitivo.png" alt="" width="150" height="150">
-            <h1 class="h3 mb-3 fw-normal">Registro Usuario</h1>
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <img src="Imagenes/Logo_SmartPhoneLand_Definitivo.png" class="tamlogo">
+                    </svg>
+                </a>
 
-            <div class="form-floating">
-                <input type="name" class="form-control" id="floatingInput" required minlength="1" placeholder="nombre">
-                <label for="floatingInput">Nombres</label>
-            </div>
-            <div class="form-floating">
-                <input type="last-name" class="form-control" id="floatingInput" required minlength="1" placeholder="apellido">
-                <label for="floatingInput">Apellidos</label>
-            </div>
-            <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" required minlength="1" placeholder="name@example.com">
-                <label for="floatingInput">Correo</label>
-            </div>
-            <div class="form-floating">
-                <input type="date" class="form-control" id="floatingInput" required minlength="1" placeholder="fecha">
-                <label for="floatingInput">Fecha de nacimiento</label>
-            </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" required minlength="1" placeholder="Contraseña">
-                <label for="floatingPassword">Contraseña</label>
-            </div>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="Pagina_Principal.html" class="nav-link px-2 text-secondary">Inicio</a></li>
+                    <li><a href="Pagina_Telefonos.html" class="nav-link px-2 text-white">Productos</a></li>
+                    <li><a href="SobreNosotros.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
+                </ul>
 
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Aceptas Termino y Condiciones
-                </label>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control form-control-dark" placeholder="Buscar..."
+                        aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2"><a class="url"
+                            href="Registro.html">Registrarse</a></button>
+                    <button type="button" class="btn btn-outline colorrojo"> <a class="url"
+                            href="Inicio_Sesion.html">Iniciar
+                            Sesion</a></button>
+                </div>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit"><a class="url" href="Pagina_Principal.html">Registrarse</a></button>
-            <button class="mt-3 w-100 btn btn-lg btn-primary" type="submit"><a class="url" href="Pagina_Principal.html">Volver</a></button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
-        </form>
-    </main>
+        </div>
+    </header>
+    <div class="container contenido">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 cuerpo">
+                <div class="text-center">
+                    <img src="Imagenes/Logo_SmartPhoneLand_Definitivo.png" class="cambio">
+                </div>
+                <h1 class="register">Registro</h1>
+                <form class="row g-3">
+                    <div class="col-md-6 titulo">
+                        <label for="inputName" class="form-label">Nombre</label>
+                        <input type="name" class="form-control" id="name">
+                    </div>
+                    <div class="col-md-6 titulo">
+                        <label for="inputLastname" class="form-label">Apellido</label>
+                        <input type="lastname" class="form-control" id="Lastname">
+                    </div>
+                    <div class="col-md-12 titulo">
+                        <label for="Rut" class="form-label">Rut</label>
+                        <input type="rut" class="form-control" id="rut">
+                    </div>
+                    <div class="col-md-12 titulo">
+                        <label for="inputPhone" class="form-label">Celular</label>
+                        <input type="596" class="form-control" id="Phone" placeholder="+569">
+                    </div>
+                    <div class="col-md-6 titulo">
+                        <label for="inputEmail4" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="correo@gmail.com">
+                    </div>
+                    <div class="col-md-6 titulo">
+                        <label for="text" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" class="form-control" id="fecha">
+                    </div>
+                    <div class="col-md-12 titulo">
+                        <label for="Password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="col-md-6 titulo">
+                        <label for="inputState" class="form-label">Region</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Seleccione una region</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 titulo">
+                        <label for="inputState" class="form-label">Comuna</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Seleccione comuna</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12 titulo">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Acepto los terminos y condiciones.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary colorrojo">Registrarse</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+            </script>
 </body>
 
 </html>
