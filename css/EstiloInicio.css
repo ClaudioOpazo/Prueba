@@ -8,7 +8,7 @@ h1{
     border: 5px solid #F05454;
     background-color: black;
     border-radius: 20px;
-    padding: 50px;
+    padding: 25px;
 }
 
 .fondo{
@@ -65,11 +65,11 @@ button{
 }
 
 .logo2{
-    width: 30%;
-    height: 45%;
+    width: 25%;
+    height: 35%;
 }
 
 .b{
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 5px;
 }
