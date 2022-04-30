@@ -3,7 +3,7 @@
     border-color: #F05454;
 }
 
-.colorazul{
+.colornegro{
   background-color: #121212;
   border-color: #121212;
   color: #e5e5e5;
@@ -62,5 +62,30 @@
 .url{
     text-decoration: none;
     color: white;
+}
+
+.espacio{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+
+.subrayado{
+  text-decoration: none;
+  color: white;
+}
+
+.f{
+  padding-bottom: 4px;
+}
+
+.tieso{
+  height: 888px;
+}
+
+.noseq{
+  background-color: rgba(0, 0, 0, 0.26);
+  width: 100%;
+  height: 10%;
 }
 
