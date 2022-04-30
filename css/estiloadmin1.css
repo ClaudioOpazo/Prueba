@@ -1,6 +1,7 @@
 .colorrojo{
     background-color: #F05454;
     border-color: #F05454;
+    color: white;
 }
 
 .colornegro{
@@ -80,12 +81,27 @@
 }
 
 .tieso{
-  height: 888px;
-}
+  max-height: ;
+}  
 
 .noseq{
-  background-color: rgba(0, 0, 0, 0.26);
+  background-color: #f05454;
   width: 100%;
-  height: 10%;
+  height: auto;
+  border-radius: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
+.fotoadmin{
+  width: 50px;
+  height: 50px;
+}
+
+.redon{
+ border-radius: 10px;
+}
+
+.letras{
+  color: white;
+}
