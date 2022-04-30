@@ -13,17 +13,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/estiloadmin1.css">
+    <script>
+        $(document).ready(function () {
+            $("#hola").click(function () {
+                $("#h12").animate({
+                    height: '500px',
+                    width: '500px',
+                    zindex: '1'
+                });
+            });
+        });
+    </script>
 </head>
 
 <body>
     <header class="p-3 colornegro text-white">
         <div container>
-            <h5 class="xd">SmartPhoneLand</h5>
         </div>
 
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                     <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
                         <img src="../Imagenes/Logo_SmartPhoneLand_Definitivo.png" class="tamlogo">
@@ -31,20 +43,20 @@
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="Pagina_Principal.html" class="nav-link px-2 text-secondary">Inicio</a></li>
-                    <li><a href="Pagina_Telefonos.html" class="nav-link px-2 text-white">Productos</a></li>
-                    <li><a href="SobreNosotros.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
+                    <li><a href="../Pagina_Principal.html" class="nav-link px-2 text-secondary">Inicio</a></li>
+                    <li><a href="../Pagina_Telefonos.html" class="nav-link px-2 text-white">Productos</a></li>
+                    <li><a href="../SobreNosotros.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <input type="search" class="form-control form-control-dark" placeholder="Search..."
-                        aria-label="Search">
+                    <input type="search" class="form-control form-control-dark" placeholder="Buscar..."
+                        aria-label="Buscar..">
                 </form>
 
                 <div class="text-end">
-                    <a href="Inicio_Sesion.html"><button type="button" class="btn btn-outline-light me-2">Iniciar
+                    <a href="../Inicio_Sesion.html"><button type="button" class="btn btn-outline-light me-2">Iniciar
                             Sesión</button></a>
-                    <a href="Registro.html"><button type="button"
+                    <a href="../Registro.html"><button type="button"
                             class="btn btn-warning colorrojo">Registrarse</button></a>
                 </div>
             </div>
@@ -83,12 +95,12 @@
                             </svg> Revisar ventas</a>
                     </div>
 
-                    <div class="usuario">
+                    <div class="usuario abc espacio">
                         <div class="btn-group dropup colorrojo redon">
                             <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 <img src="../Imagenes/admin.jpg" alt="FotoAdmin" class="fotoadmin">
-                                <p class="letras">Claudio Opazo</p>
+                                <p class="letras tam">Claudio Opazo</p>
                             </button>
                             <ul class="dropdown-menu colorrojo letras redon">
                                 <li><a class="dropdown-item letras" href="#">Ver perfil</a></li>
@@ -97,13 +109,17 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-3 p-2">
                 <div class="noseq">
-                    <h3 class="text-center">Ventas del dia: <br>100 <br></h3>
+                    <button id="hola">
+                        <h3 class="text-center" id="h12">Ventas del dia: <br>100 <br></h3>
+                    </button>
+                </div>
+                <div class="noseq mat">
+                    <h3 class="text-center">Consultas: <br>15</h3>
                 </div>
             </div>
             <div class="col-md-2"></div>
@@ -113,6 +129,7 @@
                 </div>
             </div>
             <div class="col-md-1"></div>
+
         </div>
     </div>
 </body>
