@@ -5,14 +5,17 @@ h1{
 
 .forma{
     margin-top: 6%;
-    border: 5px solid #F05454;
     background-color: black;
     border-radius: 20px;
     padding: 25px;
 }
 
 .fondo{
-    background-color: white;
+    background-image: url("../Imagenes/imagenes_gif_7.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .centrado{
@@ -23,7 +26,10 @@ h1{
 .boton1{
     color: white;
     background-color: black;
-    margin-top: 2%;
+    margin-top: 3%;
+    width: 30%;
+    font-size: 20px;
+
 }
 
 button{
@@ -73,15 +79,17 @@ button{
     font-size: 20px;
     padding-bottom: 5px;
 }
+.espacio{
+    margin-bottom: 5px;
+}
 
 /*----------------formulario-----------------*/
 .formulario {
-    background-color: #C489FD;
     margin: 5%;
 }
 
 .contenido {
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .cto {
@@ -96,12 +104,15 @@ button{
     background-color: black;
     padding: 1%;
     border-radius: 2%;
-    border: 3px solid #F05454 ;
+    
 }
 .cambio{
-    width: 10%;
+    width: 15%;
 }
 .register{
     font-size: 30px;
     font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
