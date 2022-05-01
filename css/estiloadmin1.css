@@ -118,3 +118,28 @@
 .mat{
   margin-top: 5%;
 }
+
+.icon{
+  display: inline-block;
+  animation: float 5s ease-in-out infinite;
+}
+.lapiz{
+  animation-delay: 1s;
+}
+.lupa{
+  animation-delay: 2s;
+}
+.bolsa{
+  animation-delay: 3s;
+}
+@keyframes float{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
