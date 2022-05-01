@@ -8,6 +8,7 @@
   background-color: #121212;
   border-color: #121212;
   color: #e5e5e5;
+  
 }
 
 .colorblanco{
@@ -66,8 +67,7 @@
 }
 
 .espacio{
-  padding-top: 6%;
-  padding-bottom: 6%;
+  padding-bottom: 10%;
   font-size: 20px;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .redon{
- border-radius: 10px;
+ border-radius: px;
 }
 
 .letras{
@@ -138,4 +138,20 @@
   100%{
     transform: translateY(0);
   }
+}
+.t{
+  color: #121212;
+  font-weight: normal;
+}
+.tieso{
+  height: 820px;
+}
+/*----productos----*/
+.card{
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.bordej{
+  border-radius: 20px;
 }
