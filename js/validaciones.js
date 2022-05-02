@@ -87,3 +87,4 @@ function verificarPasswords() {
 	}
 
 }
+/*Validacion*/

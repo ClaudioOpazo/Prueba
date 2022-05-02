@@ -126,3 +126,11 @@ button{
 .mostrar {
     display: block;
 }
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 20px;
+}
