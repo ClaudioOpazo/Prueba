@@ -7,45 +7,15 @@
 <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
 <link href="css/EstiloInicio.css" rel="stylesheet">
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("#cargar").click(function(){
-            $.get("https://gist.githubusercontent.com/juanbrujo/0fd2f4d126b3ce5a95a7dd1f28b3d8dd/raw/83e6907641ed46fbad41484c6e69ba09afa56251/comunas-regiones.json", function(data){
-                $.each(data.regiones, function(i,item){
-                    $("#cargar").append("<option>"+ item.region +"</option>")
-                })
-            })
-        })
-    })
-</script>
+
 </head>
 
 <body class="fondo">
     <header class="p-3 colorazul text-white">
         <div container>
-            <h5 class="xd">SmartPhoneLand</h5>
-        </div>
-
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                        <img src="Imagenes/Logo_SmartPhoneLand_Definitivo.png" class="tamlogo">
-                    </svg>
-                </a>
-
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="Pagina_Principal.html" class="nav-link px-2 text-secondary">Inicio</a></li>
-                    <li><a href="Pagina_Telefonos.html" class="nav-link px-2 text-white">Productos</a></li>
-                    <li><a href="SobreNosotros.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
-                </ul>
-
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <input type="search" class="form-control form-control-dark" placeholder="Buscar..."
-                        aria-label="Search">
-                </form>
-
-                <div class="text-end">
+            <div><h4 class="text-center">SmartPhoneLand</h4>
+            </div>
+                <div class="text-center">
                     <a href="Inicio_Sesion.html"><button type="button" class="btn btn-outline-light me-2">Iniciar
                             Sesión</button></a>
                     <a href="Registro.html"><button type="button"
@@ -97,21 +67,19 @@
                     </div>
                     <div class="col-md-6 titulo">
                         <label for="inputState" class="form-label">Region</label>
-                        <select id="cargar" class="form-select">
+                        <select id="regiones" class="form-select">
                             <option selected>Seleccione una region</option>
-                            <option></option>
                         </select>
                     </div>
                     <div class="col-md-6 titulo">
                         <label for="inputState" class="form-label">Comuna</label>
                         <select id="comunas" class="form-select">
                             <option selected>Seleccione una comuna</option>
-                            <option>...</option>
                         </select>
                     </div>
                     <div class="col-md-6 titulo">
-                        <label for="Nombrecalle" class="form-label"> Dirección</label>
-                        <input type="text" class="form-control" id="calle" placeholder="Ingrese su dirección">
+                        <label for="Nombrecalle" class="form-label"> Calle</label>
+                        <input type="text" class="form-control" id="calle" placeholder="Ingrese su calle">
                     </div>
                     <div class="col-md-6 titulo">
                         <label for="numero" class="form-label"> Número calle</label>
@@ -133,7 +101,7 @@
             <div class="col-md-2"></div>
         </div>
         
-        
+        <script src="js/validaciones.js"> </script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
             integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
             </script>
@@ -143,7 +111,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
             </script>
-        <script src="js/animaciones.js"> </script>
+        
 </body>
 
 </html>
