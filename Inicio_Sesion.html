@@ -30,10 +30,10 @@
           <img src="Imagenes/Logo_SmartPhoneLand_Definitivo.png" class="logo2">
         </div>
         <h1>Inicio de sesion</h1>
-        <form action="">
+        <form method="post" action="">
           <div class="form-group espacio">
             <label class="centrado b">Correo: </label>
-            <input class="form-control" type="email" name="correo" id="correo" placeholder="example@dominio.algo">
+            <input class="form-control" type="email" name="correo" id="email" placeholder="example@dominio.algo">
           </div>
           <div class="form-group espacio">
             <label class="centrado b">Contraseña: </label>
@@ -43,14 +43,17 @@
             <button type="submit" class="btn boton1 colorrojo">Iniciar sesion</button>
 
           </div>
-          <a href="Registro.html">¿No estas registrado?</a>
+          <div class="text-center m-2">
+            <a href="Registro.html">¿No estas registrado?</a>
+          </div>
+
         </form>
       </div>
       <div class="col-md-3"></div>
     </div>
   </div>
 
-
+  <script src="js/validacioninciosesion.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>
