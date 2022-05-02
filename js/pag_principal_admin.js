@@ -8,23 +8,23 @@
       type: 'line',
       data: {
         labels: [
-          'Sunday',
-          'Monday',
-          'Tuesday',
-          'Wednesday',
-          'Thursday',
-          'Friday',
-          'Saturday'
+          'lunes',
+          'Martes',
+          'Miercoles',
+          'Jueves',
+          'Viernes',
+          'Sabado',
+          'Domingo'
         ],
         datasets: [{
           data: [
-            15339,
-            21345,
-            18483,
-            24003,
-            23489,
-            24092,
-            12034
+            679980,
+            629980,
+            1899990,
+            299990,
+            859980,
+            0,
+            709980
           ],
           lineTension: 0,
           backgroundColor: 'transparent',
